@@ -1,0 +1,179 @@
+<DOCTYPE html>
+<html>
+	<head>
+	   <tittle>Agregar Empleado</tittle>
+	   
+	</head>
+	<head>
+	   <meta name="description" content="Ejemplo de HTML5"/>
+	   <meta name="keywords" content="HTML5,CS3,JavaScript"/>
+	   <title>Formulario</title>
+        </head>
+        <body>
+		<div>
+		    <form action="datos.html" method="GET">
+		    <fieldset>
+		    <legend>Laboral</legend>
+			
+			<label for=""txtNombre">Codigo</label><br/>
+			<input type="codigo" size="10" id="txtNombre" name="codigo" value=""/>
+			
+			<br/>
+			<br/>
+			
+			<label for=""txtFecha">Fecha de ingreso</label><br/>
+			<input type="fecha" size="10" id="txtFecha" name="fecha" value=""/>
+			
+		   
+			<br/>
+			<br/>
+			<label for=""txtSegSoc">Seguridad Social</label><br/>
+			<input type="segsoc" size="10" id="txtSegSoc" name="segsoc" value=""/>
+			
+			<br/>
+			<br/>
+			<label for=""txtNum">N&uacute;mero</label><br/>
+			<input type="num" size="10" id="txtnum" name="num" value=""/>
+			
+			<br/>
+			<br/>
+		    </fieldset>
+		 
+		    <fieldset>
+		    <legend>Personal</legend>
+			
+			<label for=""txtCod">Codigo</label><br/>
+			<input type="cod" size="10" id="txtCod" name="cod" value=""/>
+			
+			<br/>
+			<br/>
+			
+			<label for=""txtApPa">Apellido Paterno</label><br/>
+			<input type="appa" size="10" id="txtApPa" name="appa" value=""/>
+			
+		   
+			<br/>
+			<br/>
+			<label for=""txtApMa">Apellido Materno</label><br/>
+			<input type="apma" size="10" id="txtApMa" name="apma" value=""/>
+			
+			<br/>
+			<br/>
+			<label for=""txtFot">Foto</label><br/>
+			<img  src="jav.jpg" width="120" height="120"></br>
+
+			<br/>
+			<br/>
+			<label for=""txtsex">Sexo</label><br/>
+			<input type="radio" id="gen1" name="sex" value="1" />
+			<label for="pro1">Mujer </label><br/>
+			<input type="radio" id="gen2" name="sex" value="2"checked="checked">
+			<label for="pro2">Masculino </label><br/>
+
+			<br/>
+			<br/>
+			<label for=""txtEstciv">Estado Civil</label><br/>
+			<select id="estadocivil" name="estciv">
+				<option value="1">Casado</option>		
+				<option value="2" selected="selected">Soltero</option>
+				
+			</select>
+
+		    </fieldset>
+			
+		    <fieldset>
+		    <legend>Nacimiento</legend>
+			
+			<label for=""txtFech">Fecha</label><br/>
+			<input type="fech" size="10" id="txtFech" name="fech" value=""/>
+			
+			<br/>
+			<br/>
+			
+			<label for=""txtPais">Pais</label><br/>
+			<select id="pais" name="pais">
+				<option value="1">Canada</option>
+				<option value="1">Estados Unidos</option>
+				<option value="1">Francia</option>		
+				<option value="2" selected="selected">Mexico</option>
+			</select>
+		    </fieldset>
+		  
+		     <fieldset>
+		    <legend>Contacto</legend>
+			
+			<label for=""txtTitulo">T&iacute;tulo</label><br/>
+			<input type="titu" size="10" id="txtTitulo" name="titu" value=""/>
+			
+			<br/>
+			<br/>
+			
+			<label for=""txtCurp">Curp</label><br/>
+			<input type="curp" size="10" id="txtCurp" name="curp" value=""/>
+			
+		   
+			<br/>
+			<br/>
+			<label for=""txtRFC">RFC</label><br/>
+			<input type="rfc" size="10" id="txtRFC" name="rfc" value=""/>
+			
+			<br/>
+			<br/>
+			<label for=""txtTelefono">Tel&eacute;fono</label><br/>
+			<input type="tel" size="10" id="txtTelefono" name="tel" value=""/>
+
+			<br/>
+			<br/>
+			<label for=""txtCelular">Celular</label><br/>
+			<input type="cel" size="10" id="txtCelular" name="cel" value=""/>
+
+			<br/>
+			<br/>
+			<label for=""txtDomicilio">Domicilio</label><br/>
+			<input type="dom" size="10" id="txtDomicilio" name="dom" value=""/>
+
+			<br/>
+			<br/>
+			<label for=""txtColonia">Colonia</label><br/>
+			<input type="col" size="10" id="txtColonia" name="col" value=""/>
+
+			<br/>
+			<br/>
+			<label for=""txtCodigoPostal">C&oacute;digo Postal</label><br/>
+			<input type="codp" size="10" id="txtCodigoPostal" name="codp" value=""/>
+
+			<br/>
+			<br/>
+			<label for=""txtPais">Pais</label><br/>
+			<select id="pais" name="pais">
+				<option value="1">Canada</option>
+				<option value="1">Estados Unidos</option>
+				<option value="1">Francia</option>		
+				<option value="2" selected="selected">Mexico</option>
+			</select>
+
+			<br/>
+			<br/>
+			<label for=""txtRadio">Radio</label><br/>
+			<input type="rad" size="10" id="txtRadio" name="rad" value=""/>
+
+			<br/>
+			<br/>
+			<label for=""txtCorreoElectronico">Correo Electronico</label><br/>
+			<input type="coel" size="10" id="txtCorreoElectronico" name="coel" value=""/>
+
+			<br/>
+			<br/>
+			<label for=""txtObservaciones">Observaciones</label><br/>
+			<textarea  name="Obrvaciones" cools"30" rows="10">Escribe observacion</textarea>
+
+		    </fieldset>
+			
+			
+			<input type="submit" name="enviar" value="Cancelar" />
+			<input type="submit" name="enviar" value="Guardar" />
+			</form>
+			
+		</div>
+	</body>
+</html>
